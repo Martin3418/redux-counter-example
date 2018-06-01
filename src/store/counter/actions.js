@@ -8,7 +8,7 @@ export function increment(incrementBy) {
 export function decrement(decrementBy) {
   return {
     type: "DECREMENT",
-    decrementBy: decrementBy || 1
+    decrementBy: decrementBy || -1
   }
 }
 
